@@ -31,4 +31,4 @@ def magic_array(array)
 
 end
 
-puts magic_array([1, 2, 3, 4, 5, 6])
+# puts magic_array([1, 2, 3, 4, 5, 6])
