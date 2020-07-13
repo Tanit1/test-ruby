@@ -26,9 +26,8 @@ end
 
 # puts array_42([1, 2, 3, 4, 5, 6, 7 , 8, 9, 10])
 
-# TODO: À FAIRE
 def magic_array(array)
-
+    array.flatten.map{ |e| e * 2}.delete_if{ |a| a % 3 == 0}.sort.uniq 
 end
 
 # puts magic_array([1, 2, 3, 4, 5, 6])
