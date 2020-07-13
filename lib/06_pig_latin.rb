@@ -13,7 +13,7 @@ def translate(string)
       if vowels.include? word[0]
          translation = word + 'ay'
          result.push(translation)
-      # SINON DÉCOUPE LE MOT
+      # SINON DÉCOUPE LE MOT TODO: À CONTINUER
       
       end
    end
