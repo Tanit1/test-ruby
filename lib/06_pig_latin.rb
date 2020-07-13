@@ -21,4 +21,4 @@ def translate(string)
    return result.join(' ').to_s
 end
 
-puts translate('apple')
+# puts translate('apple')
